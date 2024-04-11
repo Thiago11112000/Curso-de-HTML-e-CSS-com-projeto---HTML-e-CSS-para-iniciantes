@@ -1,0 +1,197 @@
+/* 1 - Integração inicial  */
+h1{
+    color:blue;
+}
+h3 {
+    color:green ;
+    }
+    /* # ID */
+ #title {
+color: blue;
+}
+
+/* . Classe */
+
+.text{
+    color: blueviolet;
+}
+
+.background{ 
+   color: white; 
+   background-color: red;
+   font-size: 30px;
+}
+
+p,.title-small{
+    color: darkmagenta;
+}
+.title-small{
+    font-size: 20px;
+}
+
+
+.background-image{
+    background-image: url("../img/meteoro.jpg");
+    padding: 20px;
+    color: white;
+}
+
+#width-height{
+    width: 200px;
+    height: 100px;
+    background-color: black;
+}
+
+#padding{
+    background-color: magenta;
+    padding: 20px;
+}
+#margin{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin: 20px;
+}
+
+#border{
+    border: 3px solid red;
+    width: 100px;
+    height: 100px;
+    padding: 40px;
+    margin: 30px;
+}
+
+#border-radius{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+#hex,#rgb,#hsl
+{
+width: 50px;
+height: 50px;
+margin: 10px;
+}
+
+#hex{
+    background-color: #38bf31;
+}
+
+#rgb{
+    background-color: rgb(123,40,99);
+}
+#hsl{
+    background-color: hsl(100,20%,80%);
+}
+
+#center{
+    text-align: center;
+}
+
+p{
+    font-size: 35px;
+}
+
+#underline{
+    text-decoration: underline;
+}
+#line{
+    text-decoration: line-through;
+}
+#sem-underline{
+    text-decoration: none;
+}
+#fonte-pequena{
+    font-size: 4px;
+}
+/* Transform */
+
+#upper{
+    text-transform: uppercase;
+}
+#lower{
+    text-transform: lowercase;
+}
+
+#serif{
+    font-family: Georgia;
+}
+#sans-serif{
+    font-family: Helvetica;
+}
+#cursive{
+    font-family: cursive;
+}
+.inline{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    margin: 5px;
+    display: inline-block;
+}
+.block{
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    margin: 5px;
+    display:block; 
+}
+
+/* Ocultando Elemento */
+
+#none{
+    display: none;
+}
+/* Position */
+
+#relative,
+#absolute,
+#fixed{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+#relative{
+    background-color: blueviolet;
+    position: relative;
+    top: 50px;
+    left: 20px;
+}
+#absolute{
+background-color: #321;
+position: absolute;
+top: 50px;
+right: 50px;
+}
+
+#fixed{
+    background-color: #455;
+    position: fixed;
+    top: 100px;
+    left: 45px ;
+}
+/* Relative com absolute */
+
+#relative-2{
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+    position: relative;
+}
+
+#absolute-1,#absolute-2{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    position: absolute;
+}
+#absolute-1{
+    top: 10px;
+    left: 10px;
+}
+#absolute-2{
+bottom:10px;
+right: 10px;
+}
